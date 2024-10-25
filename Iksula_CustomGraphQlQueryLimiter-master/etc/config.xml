@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Iksula CustomGraphQlQueryLimiter for Magento
+ *
+ * @author  Vivek Sharma (vivek1.iksula@gmail.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <graphql_query_limiter>
+            <settings>
+                <query_depth>20</query_depth>
+                <query_complexity>300</query_complexity>
+            </settings>
+        </graphql_query_limiter>
+    </default>
+</config>
